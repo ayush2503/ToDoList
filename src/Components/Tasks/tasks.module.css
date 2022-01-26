@@ -1,0 +1,32 @@
+.task{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.wrap{
+    width: 70%;
+    /* background-color: red; */
+}
+
+.btn{
+    font-family: 'montserrat';
+    font-size: 0.6vmax;
+}
+
+i{
+    font-size: 2vmax;
+    /* padding: 1vmax; */
+    /* background:red; */
+    margin:0 0.5vmax ;
+    color: #2FCC71;
+    border: 1px solid rgba(0, 0, 0, 0.253);
+    border-radius: 0.4vmax;
+}
+
+i:last-child{
+    color: red;
+}
+
